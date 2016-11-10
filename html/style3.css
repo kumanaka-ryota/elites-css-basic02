@@ -1,0 +1,70 @@
+.container {
+  width:860px;
+  margin: 0 auto;
+}
+
+.header {
+  border: 2px none #000;
+  height:75px;
+  background-color: pink;
+  margin-bottom:10px
+}
+
+.side {
+  float:left;	
+}
+
+.sideheader {
+  width:175px;
+  height:20px;
+  margin-bottom:20px;
+  background-color:#7d7d7d;
+  font-size:20px;
+}
+
+li {
+  margin-bottom:10px;
+}
+
+.main {
+  float:right;
+}
+
+.mainheader {
+  width:630px;
+  height:20px;
+  margin-bottom:20px;
+  background-color:#7d7d7d;
+  font-size:20px;
+}
+
+.a {
+  width: 630px;
+
+}
+.b-left {
+  float:left;
+
+}
+.b-right {
+  float:right;
+
+}
+.logo-left {
+  float:left;
+  
+}
+
+.logo-right {
+  float:right;
+
+}
+.clear {
+  clear:both;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
