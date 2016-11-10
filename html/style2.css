@@ -14,7 +14,7 @@
 .nav {
   border: 1px solid #000;
   height:50px;
-  margin-bottom:50px;
+  margin-bottom:10px;
   background-color: blue;
 }
 
@@ -28,8 +28,8 @@
 
 .article {
   border: 1px solid #000;
+  width:670px;
   height:500px;
-  width:670px;  
   float:right;
   margin-left:46px;
   margin-bottom:10px;
