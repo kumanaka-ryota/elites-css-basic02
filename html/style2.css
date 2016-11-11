@@ -38,7 +38,12 @@
 
 .footer {
   border: 1px solid #000;
-  clear:both;
   height: 200px;
   background-color: pink;
 } 
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
