@@ -5,7 +5,7 @@
 
 .header {
   border: 2px none #000;
-  height:75px;
+/*height:75px;  */
   background-color: pink;
   margin-bottom:10px
 }
@@ -14,9 +14,9 @@
   float:left;	
 }
 
-.sideheader {
+.side-header {
   width:175px;
-  height:20px;
+/*height:20px;  */
   margin-bottom:20px;
   background-color:#7d7d7d;
   font-size:20px;
@@ -30,37 +30,34 @@ li {
   float:right;
 }
 
-.mainheader {
+.main-header {
   width:630px;
-  height:20px;
+/*height:20px; */
   margin-bottom:20px;
   background-color:#7d7d7d;
   font-size:20px;
 }
 
-.a {
+.main-content {
   width: 630px;
 
 }
-.b-left {
+.letter-left {
   float:left;
-
+  width:75%;
 }
-.b-right {
+.letter-right {
   float:right;
-
+  width:67%;
 }
 .logo-left {
   float:left;
-  
+  width:25%;
 }
 
 .logo-right {
   float:right;
-
-}
-.clear {
-  clear:both;
+  width:25%;
 }
 
 .clearfix:after {
