@@ -1,0 +1,35 @@
+ul,li {  
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.menu-list {
+  width:600px;
+}
+
+.menu-list li {
+  float:left;
+  text-align:center;
+  font-weight:bold;
+  border-right:solid 2px #FFF;
+  width:150px;
+}
+
+.menu-list li a {
+  display:block;
+  background:whitesmoke;
+  text-decoration:none;
+  border-bottom:solid 4px #CCCCCC;  
+  color:#00CC99;
+}
+
+.menu-list li a:hover {
+  border-bottom:solid 4px #00CC99;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
