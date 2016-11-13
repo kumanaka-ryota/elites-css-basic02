@@ -27,3 +27,9 @@ ul,li {
 .menu-list li a:hover {
   border-bottom:solid 4px #00CC99;
 }
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
